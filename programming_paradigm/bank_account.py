@@ -10,4 +10,4 @@ class BankAccount():
         else: 
             return False
     def display_balance(self):
-        print(self.account_balance)
+        return self.account_balance
